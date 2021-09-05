@@ -1,0 +1,8 @@
+<div class="header_div">
+<h1 class="index_title">ToDo Detail Page</h1>
+</div>
+<div class="detail-container">
+<div class="detail-title"><h3>Title: <%= @todo.title%></h3></div>
+<div class="description"><p>Description: <%= @todo.description%></p></div>
+</div>
+<a class="new_btn"> <%=  link_to "Back To Todo List",todos_path  %> </a>

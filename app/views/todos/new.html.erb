@@ -1,0 +1,25 @@
+<div class="header_div">
+<h1 class="index_title">Create a New Todo</h1>
+</div>
+
+
+
+<%= form_for  @todo do |f| %>
+<div class="card">
+  <div class="card-body">
+
+    <div class="mb-3">
+      <%= f.label :title, { class: "form-label"} %>
+      <%= f.text_field :title, { class: "form-control", placeholder: "Title" } %>
+    </div>
+
+    <div class="mb-3">
+      <%= f.label :description, { class: "form-label"} %>
+      <%= f.text_area :description, { class: "form-control", placeholder: "Description" } %>
+    </div>
+
+    <%= f.submit "Create", class: "btn btn-primary" %>
+
+  </div>
+</div>
+<% end %>

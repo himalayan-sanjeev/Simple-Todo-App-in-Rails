@@ -1,0 +1,15 @@
+<div class="header_div">
+<h1 class="index_title">Edit Todo Item</h1>
+</div>
+
+
+<%= form_for @todo do |f| %>
+
+  <%= label_tag(:title, "Title:") %>
+  <%= f.text_field :title %></br>
+
+  <%= label_tag(:description, "Description") %>
+  <%= f.text_area :description %></br>
+
+  <%= f.submit "Update" %>
+<% end %>
