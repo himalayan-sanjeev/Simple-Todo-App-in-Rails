@@ -1,24 +1,14 @@
-# README
+# TODO App features:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Create todo items/tasks
 
-Things you may want to cover:
+### Read todo items/tasks
 
-* Ruby version
+### Update todo items/tasks
 
-* System dependencies
+### Destroy todo items/tasks
 
-* Configuration
 
-* Database creation
+##### Database used: mysql
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ 
